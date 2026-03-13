@@ -12,7 +12,11 @@ struct StrMatches<'a, 'b> {
 
 impl<'a, 'b> StrMatches<'a, 'b> {
     fn new(text: &'a str, pattern: &'b str) -> Self {
-        Self { text, pattern, cursor: 0 }
+        Self {
+            text,
+            pattern,
+            cursor: 0,
+        }
     }
 }
 

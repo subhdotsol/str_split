@@ -2,5 +2,17 @@
 name = "str_tools"
 version = "0.1.0"
 edition = "2024"
+authors = [
+    "Subh <subhajitchaudhury05@gmail.com>",
+    "Naman <https://github.com/namanguptagit>",
+    "Rohit<rohitnarnolia88@gmail.com>",
+]
+description = "ust library that provides zero copy string iterators for working with string slices. The library offers iterators similar to standard Rust string methods"
+license = "MIT"
+repository = "https://github.com/subhdotsol/str_split"
+homepage = "https://github.com/subhdotsol/str_split"
+readme = "README.md"
+keywords = ["string", "iterators", "zero copy", "rust", "string methods"]
+categories = ["command-line-utilities", "asynchronous"]
 
 [dependencies]
